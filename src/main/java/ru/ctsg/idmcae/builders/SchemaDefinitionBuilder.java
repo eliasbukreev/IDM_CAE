@@ -1,4 +1,4 @@
-package ru.ctsg.idmcae;
+package ru.ctsg.idmcae.builders;
 
 import java.util.HashSet;
 import java.util.List;
@@ -11,6 +11,8 @@ import org.identityconnectors.framework.common.objects.ObjectClassInfoBuilder;
 import org.identityconnectors.framework.common.objects.Schema;
 import org.identityconnectors.framework.common.objects.SchemaBuilder;
 import org.identityconnectors.framework.common.objects.Uid;
+
+import ru.ctsg.idmcae.ADLKConnector;
 
 public class SchemaDefinitionBuilder {
 
