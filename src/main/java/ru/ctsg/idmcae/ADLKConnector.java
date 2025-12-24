@@ -139,7 +139,7 @@ public class ADLKConnector implements PoolableConnector,
         ObjectClass objectClass, 
         OperationOptions options) {
 
-        return new FilterTranslator<>() {
+        return new FilterTranslator<Filter>() {
             @Override
             public List<Filter> translate(Filter filter) {
                 return CollectionUtil.newList(filter);
